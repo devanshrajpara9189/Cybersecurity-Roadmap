@@ -1,4 +1,4 @@
-# 🌐 Networking Ports and Protocols
+# 🌐 Networking Ports
 
 ## 📌 Introduction
 
