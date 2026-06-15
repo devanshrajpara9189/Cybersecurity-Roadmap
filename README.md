@@ -52,7 +52,7 @@ Cybersecurity protects:
 
 ---
 
-- **VirusTotal**
+**VirusTotal**
 - Multi-Factor Authentication
 - Strong Passwords
 
