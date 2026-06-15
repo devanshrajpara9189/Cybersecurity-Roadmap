@@ -70,17 +70,6 @@ Used for maintaining consistent payload size and testing.
 
 ---
 
-# 🖥️ Metasploit Interface
-
-## msfconsole
-
-Main command-line interface of Metasploit.
-
-Command:
-
-```bash
-msfconsole
-
 # Metasploit Framework
 
 ├── Exploits
@@ -89,3 +78,26 @@ msfconsole
 ├── Encoders
 ├── NOPs
 └── Post Modules
+
+---
+
+# ⭐ Key Concept
+
+The main working relationship in Metasploit:
+
+**Exploit + Payload = Security Testing Capability**
+
+- **Exploit** → Uses a vulnerability
+- **Payload** → Defines the action after successful exploitation
+
+---
+
+# ⚠️ Ethical Usage
+
+Metasploit should only be used:
+
+✅ In personal labs  
+✅ On authorized systems  
+✅ With written permission  
+
+Unauthorized testing of systems is illegal.
