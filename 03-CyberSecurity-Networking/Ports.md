@@ -134,4 +134,5 @@ Example:
 IP Address → Device  
 Port 443 → HTTPS Service
 
-# This will fit under your Networking Fundamentals module and is useful for SOC, CEH, eJPT, and OSCP basics.
+
+This will fit under your Networking Fundamentals module and is useful for SOC, CEH, eJPT, and OSCP basics.
