@@ -440,31 +440,6 @@ The upgrade process may take time depending on:
 
 ---
 
-# Installing Tools in Kali Linux
-
-Example:
-
-```bash
-sudo apt install tool-name
-```
-
-Purpose:
-
-- Install cybersecurity tools
-- Install required packages
-
----
-
-# Removing Packages
-
-Command:
-
-```bash
-sudo apt remove package-name
-```
-
----
-
 # Updating Kali Linux Workflow
 
 Basic maintenance:
@@ -486,48 +461,6 @@ sudo apt autoremove
 ```
 
 Removes unnecessary packages.
-
----
-
-# 📂 Linux File System
-
-Linux organizes files using a directory structure.
-
-Important directories:
-
-| Directory | Purpose |
-|---|---|
-| / | Root directory |
-| /home | User files |
-| /etc | Configuration files |
-| /var | Logs and variable data |
-| /tmp | Temporary files |
-| /bin | Essential commands |
-| /usr | User programs |
-
----
-
-# 🔐 Linux Permissions
-
-Linux controls access using permissions.
-
-Types:
-
-- Read (r)
-- Write (w)
-- Execute (x)
-
-Example:
-
-```
--rwxr-xr-x
-```
-
-Meaning:
-
-- Owner: Read, Write, Execute
-- Group: Read, Execute
-- Others: Read, Execute
 
 ---
 
