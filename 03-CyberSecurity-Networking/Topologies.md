@@ -75,3 +75,32 @@ Examples:
 In Bus topology, all devices are connected to a single main cable called a **backbone cable**.
 
 <img src="images/bus.png" width="500">
+
+
+## Advantages:
+
+✅ Low cost  
+✅ Requires less cable  
+✅ Simple installation  
+✅ Easy to extend for small networks  
+
+## Disadvantages:
+
+❌ If the main cable fails, the entire network stops  
+❌ Performance decreases when more devices are added  
+❌ Difficult to locate faults  
+❌ Less secure  
+❌ Not suitable for large networks  
+
+---
+
+# 🔄 Ring Topology
+
+## Definition
+
+In Ring topology, devices are connected in a circular structure.
+
+Data travels in an organized direction from one device to another.
+
+
+<img src="images/ring.png" width="500">
