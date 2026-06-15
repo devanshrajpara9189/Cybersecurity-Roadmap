@@ -104,3 +104,171 @@ Data travels in an organized direction from one device to another.
 
 
 <img src="images/ring.png" width="200">
+
+
+
+## Advantages:
+
+✅ Orderly data transmission  
+✅ Equal access for all devices  
+✅ Good performance under heavy load  
+✅ Easier fault identification compared to bus topology  
+
+## Disadvantages:
+
+❌ Failure of one connection can affect the network  
+❌ Slower for small networks compared to star topology  
+❌ Troubleshooting can be difficult  
+
+---
+
+# ⭐ Star Topology
+
+## Definition
+
+In Star topology, every device connects to a central device such as a:
+
+- Switch
+- Hub
+
+<img src="images/star.png" width="200">
+
+
+## Advantages:
+
+✅ Failure of one device does not affect others  
+✅ Easy to manage  
+✅ Easy troubleshooting  
+✅ High performance with switches  
+
+## Disadvantages:
+
+❌ If the central device fails, the entire network stops  
+❌ Requires more cables  
+❌ Cost increases with more devices and ports  
+
+---
+
+# 🕸️ Mesh Topology
+
+## Definition
+
+In Mesh topology, every device is connected to multiple or all other devices.
+
+Types:
+
+- Full Mesh
+- Partial Mesh
+
+## Advantages:
+
+✅ Extremely reliable  
+✅ High security  
+✅ Multiple communication paths  
+✅ Easy fault detection  
+
+## Disadvantages:
+
+❌ Requires many cables and ports  
+❌ Expensive  
+❌ Complex design  
+❌ Difficult maintenance  
+
+---
+
+# 🔀 Hybrid Topology
+
+## Definition
+
+Hybrid topology combines two or more different topologies.
+
+Examples:
+
+- Star + Bus
+- Star + Ring
+
+## Advantages:
+
+✅ Combines benefits of multiple topologies  
+✅ Flexible and expandable  
+✅ Reliable  
+✅ Can be optimized for different requirements  
+
+## Disadvantages:
+
+❌ Expensive  
+❌ Complex design  
+❌ Difficult troubleshooting  
+❌ Requires skilled network professionals  
+
+---
+
+# 🌳 Tree Topology
+
+## Definition
+
+Tree topology has a hierarchical structure.
+
+The first device is called the:
+
+**Root Node**
+
+Other connected devices are:
+
+**Child Nodes**
+
+<img src="images/tree.png" width="200">
+
+
+## Advantages:
+
+✅ Easy management  
+✅ Easy expansion  
+✅ Suitable for large organizations  
+✅ Adding new branches does not affect other sections  
+
+## Disadvantages:
+
+❌ Failure of root device affects the entire network  
+❌ Complex structure  
+❌ Requires proper management  
+
+---
+
+# 🛡️ Network Topology and Cybersecurity
+
+Security teams analyze topology to:
+
+- Understand network structure
+- Detect unusual traffic
+- Identify weak points
+- Monitor communication paths
+- Improve network security
+
+SOC analysts use:
+
+- Event Viewer
+- SIEM tools
+- Network monitoring tools
+
+to analyze security events and detect suspicious activities.
+
+---
+
+# 📊 Topology Comparison
+
+| Topology | Reliability | Cost | Complexity |
+|---|---|---|---|
+| Bus | Low | Low | Simple |
+| Ring | Medium | Medium | Medium |
+| Star | High | Medium | Easy |
+| Mesh | Very High | High | Complex |
+| Hybrid | High | High | Complex |
+| Tree | Medium | Medium | Complex |
+
+---
+
+# ⭐ Key Concept
+Physical Topology → How devices are physically connected
+
+Logical Topology → How data flows between devices
