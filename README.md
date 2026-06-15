@@ -3,7 +3,8 @@ Myself Devansh Rajpara and I'm documenting my cybersecurity journey through stru
 
 "My cybersecurity journey where I learn, practice, and expand my knowledge in information security."
 
-## Networking:
+## Skills:
+**Networking**
 * TCP/IP 
 * UDP
 * OSI
