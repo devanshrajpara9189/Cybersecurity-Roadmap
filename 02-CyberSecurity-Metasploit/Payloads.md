@@ -63,17 +63,6 @@ Purpose:
 
 ---
 
-# 🔗 Reverse Connection Concept
-
-A reverse connection is a communication method where a tested system initiates a connection back to a security testing system.
-
-Used in:
-
-- Authorized penetration testing
-- Security research
-- Lab environments
-
----
 
 # 🌐 Listener Concept
 
@@ -99,6 +88,86 @@ Basic management:
 - Start service
 - Stop service
 - Check service status
+
+---
+
+# 🔄 1. Reverse Connection
+
+A reverse connection is when the internal system initiates communication back to an external system.
+
+Concept:
+Internal System → External System
+
+# 📥 2. Bind Connection
+
+A bind connection is when a system opens a service and waits for another system to connect.
+
+Concept:
+External System → Target System
+
+# 🔁 3. Reverse Shell
+
+A reverse shell provides a command-line connection from a tested system back to an authorized testing machine.
+
+Concept:
+Target System → Tester System
+
+# 🖥️ 4. Remote Access Connection
+
+Allows users to access systems remotely.
+
+Examples:
+
+- SSH
+- Remote Desktop Protocol (RDP)
+
+# 🔐 5. Encrypted Connection
+
+A secure connection where data is protected using encryption.
+
+Examples:
+
+- HTTPS
+- SSH
+- VPN
+
+# 🌐 6. VPN Connection
+
+A VPN creates an encrypted tunnel between a device and a network.
+
+Concept:
+User Device → Encrypted Tunnel → Network
+
+# 🔀 7. Proxy Connection
+
+A proxy acts as an intermediary between a user and the internet.
+
+Concept:
+User → Proxy → Internet
+
+# 📡 8. Direct Connection
+
+A direct connection occurs when two systems communicate without an intermediate service.
+
+Example:
+Computer → Server
+
+# 🕸️ 9. Client-Server Connection
+
+A client requests services from a server.
+
+Concept:
+Client → Request → Server
+Server → Response → Client
+
+# 🔗 10. Peer-to-Peer (P2P) Connection
+
+Devices communicate directly with each other without a central server.
+
+Examples:
+
+- File sharing systems
+- Distributed networks
 
 ---
 
