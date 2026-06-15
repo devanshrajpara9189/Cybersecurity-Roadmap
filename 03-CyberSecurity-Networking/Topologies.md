@@ -73,4 +73,5 @@ Examples:
 ## Definition
 
 In Bus topology, all devices are connected to a single main cable called a **backbone cable**.
-<img src="images/bus.png" width="800">
+
+<img src="images/bus.png" width="500">
