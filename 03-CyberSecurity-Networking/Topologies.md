@@ -217,7 +217,7 @@ Other connected devices are:
 
 **Child Nodes**
 
-<img src="images/tree.png" width="200">
+<img src="images/Tree.png" width="200">
 
 
 ## Advantages:
