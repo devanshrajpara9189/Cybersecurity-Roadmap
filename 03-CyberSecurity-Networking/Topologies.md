@@ -131,7 +131,7 @@ In Star topology, every device connects to a central device such as a:
 - Switch
 - Hub
 
-<img src="images/star.png" width="200">
+<img src="images/star.png" width="300">
 
 
 ## Advantages:
@@ -217,7 +217,7 @@ Other connected devices are:
 
 **Child Nodes**
 
-<img src="images/Tree.png" width="200">
+<img src="images/Tree.png" width="400">
 
 
 ## Advantages:
