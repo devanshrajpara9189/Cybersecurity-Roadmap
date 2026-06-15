@@ -339,14 +339,3 @@ Functions:
 IPS focuses on **detection + prevention**.
 
 ---
-
-# 🌐 IP Address
-
-An **IP address (Internet Protocol Address)** is a unique identifier assigned to a device on a network.
-
-Purpose:
-
-- Device identification
-- Communication between devices
-
-Types:
