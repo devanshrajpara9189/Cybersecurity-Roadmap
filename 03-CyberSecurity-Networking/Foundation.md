@@ -223,7 +223,9 @@ Characteristics:
 
 # ⭐ Key Concept
 LAN → Small Area → High Speed → Easy Management
+
 MAN → City Area → Medium Complexity
+
 WAN → Worldwide → Complex Security
 
 ---
