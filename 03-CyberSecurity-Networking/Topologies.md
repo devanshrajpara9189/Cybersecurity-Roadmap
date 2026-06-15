@@ -103,4 +103,4 @@ In Ring topology, devices are connected in a circular structure.
 Data travels in an organized direction from one device to another.
 
 
-<img src="images/ring.png" width="500">
+<img src="images/ring.png" width="200">
