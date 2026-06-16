@@ -93,3 +93,17 @@ After this step, you will see three network options:
 These tunneling options should be used only in authorized environments, such as personal labs or approved security testing, to avoid exposing or impersonating unauthorized services.
  
 <img src="images/5.png" width="500">
+
+Selecting the Port
+
+After choosing the network option, the tool will ask whether you want to use a custom port or a randomly assigned port.
+
+If you want to use a custom port, select Y and enter the required port number.
+If you want the tool to select a port automatically, select N.
+
+<img src="images/6.png" width="500">
+
+After the port configuration is completed, the local service will start and generate a URL for accessing the hosted page. The terminal will display the generated URL along with a status message "Waiting for Login Info".
+
+<img src="images/7.png" width="500">
+
