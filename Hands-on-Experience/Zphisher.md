@@ -108,7 +108,7 @@ After the port configuration is completed, the local service will start and gene
 <img src="images/7.png" width="500">
 
 ### Step-4:
-When a generated URL is opened in a browser, it can display a page that imitates a legitimate website interface. 
+PASTE THE GENERATED URL ON  A BROWSER, When a generated URL is opened in a browser, it can display a page that imitates a legitimate website interface. 
 
 
 <img src="images/webpage.png" width="500">
