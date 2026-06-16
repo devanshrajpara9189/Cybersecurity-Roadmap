@@ -118,7 +118,11 @@ In real-world phishing attacks, attackers try to convince users that the page is
 
 After a user submits information, a phishing page may redirect them to the original website to make the activity appear normal, while the collected data could be misused by an attacker. 
 
+
+<img src="images/login1.png" width="500">
+
+### Check Credentials
 <img src="images/Login.png" width="500">
 
 
-<img src="images/login1.png" width="500">
+
