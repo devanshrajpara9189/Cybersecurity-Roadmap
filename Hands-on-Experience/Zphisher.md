@@ -107,3 +107,18 @@ After the port configuration is completed, the local service will start and gene
 
 <img src="images/7.png" width="500">
 
+### Step-4:
+When a generated URL is opened in a browser, it can display a page that imitates a legitimate website interface. 
+
+
+<img src="images/webpage.png" width="500">
+
+
+In real-world phishing attacks, attackers try to convince users that the page is genuine and may attempt to collect entered credentials.
+
+After a user submits information, a phishing page may redirect them to the original website to make the activity appear normal, while the collected data could be misused by an attacker. 
+
+<img src="images/Login" width="500">
+
+
+<img src="images/Login1" width="500">
