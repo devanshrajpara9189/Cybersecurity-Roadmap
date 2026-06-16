@@ -1,4 +1,4 @@
-## ⚠️ Disclaimer: Only for Educational purposes. 
+# ⚠️ Disclaimer: Only for Educational purposes. 
 ---
 
 ## 💣 Phishing Attack using Zphisher Tool 
@@ -68,4 +68,28 @@ Once the process is completed, a list of different social media platforms will b
 After selecting the platform, different templates will be shown. Choose the appropriate template from the available options.
 
 <img src="images/4.png" width="500">
+
+### Step-3: 
+Choosing the Network
+After this step, you will see three network options:
+
+1. **Localhost**
+
+   * This option allows access only to devices connected to the same local network.
+   * It uses a local web server (such as Apache) to host the page within the local environment.
+
+2. **Cloudflare Tunnel**
+
+   * This option creates a connection between your local server and the public internet using Cloudflare's tunneling service.
+   * It allows access from outside the local network through a generated URL.
+   * Different URL options may be available depending on the configuration.
+
+3. **LocalXpose**
+
+   * LocalXpose creates a secure tunnel that forwards traffic from the public internet to a local service.
+   * It is commonly used for legitimate purposes such as testing, development, and sharing local applications remotely.
+   * A public URL is generated to access the locally hosted service.
+
+These tunneling options should be used only in authorized environments, such as personal labs or approved security testing, to avoid exposing or impersonating unauthorized services.
+ 
 
