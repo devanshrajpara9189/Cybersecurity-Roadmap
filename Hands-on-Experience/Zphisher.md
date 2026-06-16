@@ -46,6 +46,9 @@ ls
 
 This command will display the list of files and folders present in the directory. Locate the **zphisher.sh** file from the list.
 
+<img src="images/1.png" width="500">
+
+### Step-2:
 To execute the shell script, use the Bash command:
 
 ```bash
@@ -54,6 +57,12 @@ bash zphisher.sh
 
 This will run the script and start the program.
 
-<img src="images/1.png" width="500">
+<img src="images/2.png" width="500">
 
+After running the shell script, the program will process the required files and may take a few minutes to load.
+
+Once the process is completed, a list of different social media platforms will be displayed along with corresponding numeric options. Select the required option by entering its assigned number.
+<img src="images/3.png" width="500">
+After selecting the platform, different templates will be shown. Choose the appropriate template from the available options.
+<img src="images/4.png" width="500">
 
