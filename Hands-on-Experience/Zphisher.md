@@ -54,6 +54,6 @@ bash zphisher.sh
 
 This will run the script and start the program.
 
-
+<img src="images/1.png" width="500">
 
 
