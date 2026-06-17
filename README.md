@@ -16,18 +16,6 @@ This repository documents my cybersecurity learning journey while **expanding my
 
 ---
 
-## 🏢 Security Operation Center (SOC)
-
-SOC is a **24/7 security monitoring center** that:
-
-- Monitors security logs
-- Detects suspicious activities
-- Generates alerts
-- Investigates threats
-- Responds to cyber incidents
-
----
-
 # 🎓 Future Certifications
 
 - **CEH (Certified Ethical Hacker) - Theory**
@@ -52,11 +40,6 @@ Cybersecurity protects:
 
 ---
 
-## 🔬VirusTotal
-- Multi-Factor Authentication
-- Strong Passwords
-
----
 
 # 🔺 CIA Triad
 
@@ -74,10 +57,6 @@ The foundation of cybersecurity.
 * Cloud Security
 * Endpoint Security
 * IoT Security
-
-## Ethical Hacking
-
-Authorized security testing performed to find and fix vulnerabilities before attackers exploit them.
 
 # 🛠️ Security Tools Learned
 * Kali Linux
