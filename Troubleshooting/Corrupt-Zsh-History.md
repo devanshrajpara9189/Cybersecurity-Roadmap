@@ -1,3 +1,5 @@
+### Corrupt Zsh History File
+
 **There was a corrupted Zsh history file, which I fixed by clearing the history and restarting the terminal session** 
 
 
@@ -30,3 +32,7 @@ exec zsh
 * zsh starts a fresh Zsh session.
     
 <img src="images/3.JPG" width="500">
+
+### After this just restart the terminal and corrupted history file will be gone!! 
+---
+                                                    !!ISSUE RESOLVED!!
