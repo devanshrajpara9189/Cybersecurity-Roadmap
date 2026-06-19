@@ -165,17 +165,23 @@ New Connection activated Successfully
 
 ### Finally Got Internet Address Configuration on **NAT Adapter**  
 
-<img src="images/14.JPG" width="500"> 
+<img src="images/15.JPG" width="500"> 
 
 **inet 10.0.2.15/24**: This was the big success! router has officially handed machine a **local IPv4 Address (10.0.2.15)**. officially on the network.
 
 Internet connection is ON and traffic is flowing out to the real world!
 
-<img src="images/15.JPG" width="500"> 
 
 **My machine has full, working internet access!**
 
 ---
+
+### Checked internal system IP address
+```
+ifconfig eth0
+```
+<img src="images/18.JPG" width="500"> 
+
 
 ### Switched to Bridged Adapter and Give Static IP Manually
 
@@ -190,11 +196,12 @@ Now, gave a default route
 sudo ip route add default via 192.168.0.1
 ```
 
-<img src="images/16.JPG" width="500"> 
+<img src="images/19.JPG" width="500"> 
+
 
 ### Finally Checked the Internet Connection 
 
-<img src="images/17.JPG" width="500"> 
+<img src="images/20.JPG" width="500"> 
 
 Now there you can see there is Internet Now
 
