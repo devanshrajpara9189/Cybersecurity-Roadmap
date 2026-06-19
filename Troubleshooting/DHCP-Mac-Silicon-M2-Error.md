@@ -175,34 +175,69 @@ Internet connection is ON and traffic is flowing out to the real world!
 **My machine has full, working internet access!**
 
 ---
+## Providing a Static IP Address
 
-### Checked internal system IP address
-```
-ifconfig eth0
-```
-<img src="images/18.JPG" width="500"> 
+### Checked the Host (MacBook Pro M2) IP Address
 
+First, I checked the IP address of the host machine to identify the network range being used.
 
-### Switched to Bridged Adapter and Give Static IP Manually
-
-```
-sudo su addr add 192.168.0.200/24 dev eth0
+```bash
+ifconfig en0
 ```
 
-This allocates a static IP 192.168.0.200. 
+<img src="images/18.JPG" width="500">
 
-Now, gave a default route
+The output showed that the MacBook was assigned the IP address 192.168.0.110 with a subnet mask of 255.255.255.0 (/24).
+
+Since the network range is 192.168.0.0/24, any device connected to the same network can use an IP address such as:
+* 192.168.0.1
+* 192.168.0.2
+* 192.168.0.50
+* 192.168.0.110
+* 192.168.0.200
+* 192.168.0.254
+
+All of these addresses belong to the same network.
+
+**Why 192.168.0.200?**
+
+The IP address 192.168.0.200 was selected as an unused address within the same network.
+
+Example:
+Router        = 192.168.0.1
+MacBook Pro   = 192.168.0.110
+Phone         = 192.168.0.120
+Kali Linux VM = 192.168.0.200
+
+This allows the Kali virtual machine to communicate with other devices on the network.
+
+---
+### Switched the Network Adapter to Bridged Mode
+
+The virtual machine's network adapter was configured to use Bridged Adapter mode so that it could appear as a separate device on the local network.
+
+After switching to Bridged Adapter mode, a static IP address was assigned manually:
+```
+sudo ip addr add 192.168.0.200/24 dev eth0
+```
+This command assigns the static IP address 192.168.0.200 with a subnet mask of 255.255.255.0 to the eth0 network interface.
+
+Next, the default gateway was configured:
 ```
 sudo ip route add default via 192.168.0.1
 ```
+This sets the router (192.168.0.1) as the default gateway, allowing the virtual machine to access external networks and the Internet.
 
-<img src="images/19.JPG" width="500"> 
+<img src="images/19.JPG" width="500">
 
+---
 
-### Finally Checked the Internet Connection 
+### Verified Internet Connectivity
 
-<img src="images/20.JPG" width="500"> 
+Finally, the network configuration was verified by testing Internet connectivity from the Kali Linux virtual machine.
 
-Now there you can see there is Internet Now
+<img src="images/20.JPG" width="500">
 
+The successful response confirmed that the static IP configuration and default gateway settings were correct, and the virtual machine was able to access the Internet successfully.
 
+                                                          ISSUE RESOLVED
